@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=davice-width, initial-scale=1"> 
+	<link rel="stylesheet" href="assets/css/style.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet"> 
+
+    <title>Mogo</title>
+        
+</head>
+
+
+
+<body> 
+
+<header class="header fixed">
+    <div class="container">
+        <div class="header_inner">
+           
+            <a href="#Mogo" class="header_logo">MoGo</a>
+            <nav class="nav">
+                <a class="nav_link" href="#About">About</a>
+                <a class="nav_link" href="#Service">Service</a>
+                <a class="nav_link" href="#Team">Team</a>
+                <a class="nav_link" href="#Work">Work</a>
+                <a class="nav_link" href="#Clients">Clients</a>
+            </nav>
+            
+        </div>
+    </div>
+</header>
+ 
+ <div class="page">
+
+ <a name="Mogo"></a> 
+ <div class="intro">
+    <div class="container">
+       <div class="intro_inner">
+         <h2 class="intro_suptitle">Creative Company</h2>
+         <h1 class="intro_title">Welcome to MoGo</h1>
+         <a class="btn" href="#">Learn More</a>
+       </div>
+    </div>
+</div>
+ 
+<a name="About"></a>
+<section  class="section">
+   <div class="container">
+       
+       <div class="section_header">
+           <h3 class="section_suptitle">What we do</h3>
+           <h2 class="section_title">Story about us</h2>
+           <div class="section_text">
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+           </div>
+       </div>
+       
+      <div class="slider">
+        <div class="item">
+            <img src="assets/images/about/1.jpg" alt="">
+            <div class="slideText">Супер команда</div>
+        </div>
+
+        <div class="item">
+            <img src="assets/images/about/2.jpg" alt="">
+            <div class="slideText">Лучшие фотографы и видеооператоры</div>
+        </div>
+
+        <div class="item">
+            <img src="assets/images/about/3.jpg" alt="">
+            <div class="slideText">Быстрая и качественная работа</div>
+        </div>
+
+        <div class="item">
+            <img src="assets/images/about/4.jpg" alt="">
+            <div class="slideText">Креативные дизайнеры</div>
+        </div>
+
+        <div class="item">
+            <img src="assets/images/about/5.jpg" alt="">
+            <div class="slideText">Профессиональные разработчики</div>
+        </div>
+
+        <div class="item">
+            <img src="assets/images/about/6.jpg" alt="">
+            <div class="slideText">Индивидуальный подход к каждому</div>
+        </div>
+
+        <a class="prev" onclick="minusSlide()">&#10094;</a>
+        <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
+
+    <div class="slider-dots">
+        <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(4)"></span>
+        <span class="slider-dots_item" onclick="currentSlide(5)"></span>
+        <span class="slider-dots_item" onclick="currentSlide(6)"></span>
+    </div> 
+      
+   </div> 
+</section>   
+
+   
+   <div class="statistics">
+       <div class="container">
+          <div class="stat">
+             
+              <div class="stat_item">
+                  <div class="stat_count">42</div>
+                  <div class="stat_text">Web Design Projects</div>
+              </div>
+              <div class="stat_item"> 
+                  <div class="stat_count">123</div>
+                  <div class="stat_text">happy client</div>
+              </div>
+              <div class="stat_item"> 
+                  <div class="stat_count">15</div>
+                  <div class="stat_text">award winner</div>
+              </div>
+              <div class="stat_item"> 
+                  <div class="stat_count">99</div>
+                  <div class="stat_text">cup of coffee</div>
+              </div>
+              <div class="stat_item"> 
+                  <div class="stat_count">24</div>
+                  <div class="stat_text">members</div>
+              </div>
+
+          </div>
+       </div>
+   </div>
+   
+   
+   <a name="Service"></a>
+   <section class="section">
+       <div class="container">
+          
+           <div class="section_header">
+               <h3 class="section_suptitle">We work with</h3>
+               <h2 class="section_title">Amazing Services</h2>
+           </div>
+           
+           <div class="services">
+               <div class="services_item">
+                   <img  class="services_icon" src="assets/images/services/photography.png" alt="">
+                   <div class="services_title">Photography</div>
+                   <div class="services_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+               </div>
+               <div class="services_item">
+                   <img  class="services_icon" src="assets/images/services/webdesign.png" alt="">
+                   <div class="services_title">Web Design</div>
+                   <div class="services_text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+               </div>
+               <div class="services_item">
+                   <img  class="services_icon" src="assets/images/services/creativity.png" alt="">
+                   <div class="services_title">Creativity</div>
+                   <div class="services_text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+               </div>
+              
+               <div class="services_item">
+                   <img  class="services_icon" src="assets/images/services/seo.png" alt="">
+                   <div class="services_title">Seo</div>
+                   <div class="services_text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
+               </div>
+               <div class="services_item">
+                   <img  class="services_icon" src="assets/images/services/css-html.png" alt="">
+                   <div class="services_title">Css/Html</div>
+                   <div class="services_text">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</div>
+               </div>
+               <div class="services_item">
+                   <img  class="services_icon" src="assets/images/services/digital.png" alt="">
+                   <div class="services_title">Digital</div>
+                   <div class="services_text">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+               </div>
+           </div>
+           
+       </div>
+   </section>
+   
+   
+   <section class="section  section--devices">
+       <div class="container">
+          
+           <div class="section_header">
+               <h3 class="section_suptitle">For all devices</h3>
+               <h2 class="section_title">Unique design</h2>
+           </div>
+           
+           <div class="devices">
+               <img class="devices_item" src="assets/images/ipad.png" alt="">
+               <img class="devices_item  devices_item--iphone" src="assets/images/iphone.png" alt="">
+           </div>
+           
+        </div>
+   </section>
+   
+   
+   <section class="section">
+   <div class="container">
+       
+       <div class="section_header">
+           <h3 class="section_suptitle">Service</h3>
+           <h2 class="section_title">What we do</h2>
+           <div class="section_text">
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+           </div>
+       </div>
+       
+ 
+       <div class="wedo">
+           <div class="wedo_item">
+               <img class="wedo_img" src="assets/images/wedo.jpg" alt="">
+           </div>
+           <div class="wedo_item">
+               <div class="accordion">
+                   <div class="accordion_item" data-collapse="#wedo_1">
+                       <div class="accordion_header" >
+                           <img class=" accordion_icon" src="assets/images/services/photography.png" alt="">
+                           <div class="accordion_title">Photography</div>
+                       </div>
+                       <div class="accordion_content" id="wedo_1">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       </div>
+                   </div>
+                   
+                    <div class="accordion_item activee" data-collapse="#wedo_2">
+                       <div class="accordion_header" >
+                           <img class=" accordion_icon" src="assets/images/services/creativity.png" alt="">
+                           <div class="accordion_title">Creativity</div>
+                       </div>
+                       <div class="accordion_content" id="wedo_2">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       </div>
+                   </div>
+                   
+                    <div class="accordion_item" data-collapse="#wedo_3">
+                       <div class="accordion_header">
+                           <img class=" accordion_icon" src="assets/images/services/webdesign.png" alt="">
+                           <div class="accordion_title">Web design</div>
+                       </div>
+                       <div class="accordion_content" id="wedo_3">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       </div>
+                   </div> 
+               </div>
+           </div>
+       </div>
+       
+   </div>
+   </section>
+   
+   <div class="section section--gray">
+       <div class="container">
+          
+           <div class="reviews">
+               <div class="reviews_item">
+                  <img class="reviews_photo" src="assets/images/avatar.png" alt="">
+                   <div class="reviews_text">
+                       “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                   </div>
+                   <div class="reviews_author">Joshua Earle</div>
+               </div>  
+           </div>
+           
+       </div>
+   </div>
+   
+   
+   <a name="Team"></a>
+   <section  class="section">
+   <div class="container">
+       
+       <div class="section_header">
+           <h3 class="section_suptitle">Who we are</h3>
+           <h2 class="section_title">Meet our team</h2>
+           <div class="section_text">
+           <p>Если вы заинтересовались нашими услугами или у вас есть вопросы, свяжитесь с нами, перейдя по удобной вам ссылке на наших фотографиях</p>
+           </div>
+       </div>
+       
+       <div class="card">
+           <div class="card_item">
+                <div class="card_inner">
+                   <div class="card_img">
+                       <img src="assets/images/team/M.jpg" alt="">
+                    </div>
+                    <div class="card_icon">
+                    <a href="https://www.instagram.com/ssmarill/" target="_blank"><img class="card_iconn" src="assets/images/inst.png" alt=""></a>
+                    <a href="https://vk.com/m.smirnova17" target="_blank"><img class="card_iconn" src="assets/images/vk.png"  alt=""></a>
+                    </div>
+                </div>
+                <div class="card_info">
+                    <div class="card_name">Smirnova Mary</div>
+                    <div class="card_prof">Graphic Design</div>
+                </div>
+           </div>
+           <div class="card_item">
+                <div class="card_inner">
+                    <div class="card_img">                   
+                       <img src="assets/images/team/2.jpg" alt="">
+                    </div>
+                    <div class="card_icon">
+                    <a href="" target="_blank"><img class="card_iconn" src="assets/images/inst.png" alt=""></a>
+                    <a href="" target="_blank"><img class="card_iconn" src="assets/images/vk.png" alt=""></a>
+                    </div>
+                </div>
+                 <div class="card_info">
+                    <div class="card_name">Christopher Campbell</div>
+                    <div class="card_prof">Branding/UX design</div>
+                </div>               
+           </div>
+           <div class="card_item">
+                <div class="card_inner">
+                    <div class="card_img">     
+                       <img src="assets/images/team/A.jpg" alt="">
+                    </div>
+                    <div class="card_icon">
+                    <a href="https://www.instagram.com/moshyova/" target="_blank"><img class="card_iconn" src="assets/images/inst.png" alt=""></a>
+                    <a href="https://vk.com/moshyova" target="_blank"><img class="card_iconn" src="assets/images/vk.png" alt=""></a>
+                    </div>
+               </div>
+               <div class="card_info">
+                    <div class="card_name">Moshchoyva Anna</div>
+                    <div class="card_prof">Developer</div>
+               </div>
+           </div>
+       </div>
+    
+    </div>
+    </section>
+    
+    <div class="section section--gray">
+        <div class="container">
+           
+            <div class="logos">
+               <div class="logos_item">
+                   <img class="logos_img" src="assets/images/logos/1.png" alt="">
+               </div>
+               <div class="logos_item">
+                   <img class="logos_img" src="assets/images/logos/2.png" alt="">
+               </div>
+               <div class="logos_item">
+                   <img class="logos_img" src="assets/images/logos/3.png" alt="">
+               </div>
+               <div class="logos_item">
+                   <img class="logos_img" src="assets/images/logos/4.png" alt="">
+               </div>
+               <div class="logos_item">
+                   <img class="logos_img" src="assets/images/logos/5.png" alt="">
+               </div>
+               <div class="logos_item">
+                   <img class="logos_img" src="assets/images/logos/6.png" alt="">
+               </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <a name="Work"></a>
+    <section  class="section">
+      <div class="container">
+       
+       <div class="section_header">
+           <h3 class="section_suptitle">What we do</h3>
+           <h2 class="section_title">Some of our work</h2>
+           <div class="section_text">
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+           </div>
+       </div>
+       
+      </div>
+      
+<!--ГАЛЕРЕЯ КАРТИНОК-->
+      <div class="works">
+          <div class="works_col">
+              <div class="works_item">
+                       <img class="works_image" src="assets/images/works/1.jpg" alt="">
+                  <div class="works_info">
+                      <div class="works_title">Creatively designed</div>
+                      <div class="works_text">Lorem ipsum dolor sit</div>
+                  </div>
+                  
+              </div>
+              <div class="works_item">
+                  <img class="works_image" src="assets/images/works/2.jpg" alt="">
+                  <div class="works_info">
+                      <div class="works_title">Creatively designed</div>
+                      <div class="works_text">Lorem ipsum dolor sit</div>
+                  </div>            
+
+              </div>
+          </div>
+          <div class="works_col">
+            <div class="works_item">
+                  <img class="works_image" src="assets/images/works/3.jpg" alt="">
+                  <div class="works_info">
+                      <div class="works_title">Creatively designed</div>
+                      <div class="works_text">Lorem ipsum dolor sit</div>
+                  </div>
+                  
+              </div>
+              <div class="works_item">
+                  <img class="works_image" src="assets/images/works/4.jpg" alt="">
+                  <div class="works_info">
+                      <div class="works_title">Creatively designed</div>
+                      <div class="works_text">Lorem ipsum dolor sit</div>
+                  </div>            
+
+              </div>
+          </div>
+          <div class="works_col">
+              <div class="works_item">
+                  <img class="works_image" src="assets/images/works/5.jpg" alt="">
+                  <div class="works_info">
+                      <div class="works_title">Creatively designed</div>
+                      <div class="works_text">Lorem ipsum dolor sit</div>
+                  </div>   
+              </div>
+          </div>
+          <div class="works_col">
+             <div class="works_item">
+                  <img class="works_image" src="assets/images/works/6.jpg" alt="">
+                  <div class="works_info">
+                      <div class="works_title">Creatively designed</div>
+                      <div class="works_text">Lorem ipsum dolor sit</div>
+                  </div>
+                  
+              </div>
+              <div class="works_item">
+                  <img class="works_image" src="assets/images/works/7.jpg" alt="">
+                  <div class="works_info">
+                      <div class="works_title">Creatively designed</div>
+                      <div class="works_text">Lorem ipsum dolor sit</div>
+                  </div>            
+
+              </div>
+          </div>
+      </div>
+    </section>
+    
+    
+     
+     <a name="Clients"></a>
+     <section  class="section section--clients">
+       <div class="container">
+       
+       <div class="section_header">
+           <h3 class="section_suptitle">Happy Clients</h3>
+           <h2 class="section_title">What people say</h2>
+       </div>
+       
+       <div class="clients">
+           <div class="clients_item">
+               <img class="clients_photo" src="assets/images/clients/1.png" alt="">
+               <div class="clients_content">
+                   <div class="clients_name">Matthew Dix</div>
+                   <div class="clients_prof">Graphic Design</div>
+                   <div class="clients_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</div>
+               </div>
+           </div>
+           <div class="clients_item">
+               <img class="clients_photo" src="assets/images/clients/2.png" alt="">
+               <div class="clients_content">
+                   <div class="clients_name">Nick Karvounis</div>
+                   <div class="clients_prof">Graphic Design</div>
+                   <div class="clients_text">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+               </div>
+           </div>
+           <div class="clients_item">
+               <img class="clients_photo" src="assets/images/clients/3.png" alt="">
+               <div class="clients_content">
+                   <div class="clients_name">Jaelynn Castillo </div>
+                   <div class="clients_prof">Graphic Design</div>
+                   <div class="clients_text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+               </div>
+           </div>
+           <div class="clients_item">
+               <img class="clients_photo" src="assets/images/clients/4.png" alt="">
+               <div class="clients_content">Mike Petrucci</div>
+                   <div class="clients_prof">Graphic Design</div>
+                   <div class="clients_text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</div>
+		   </div>
+	  </div>
+     
+      </div>
+    </section>
+     
+     
+      <section  class="section">
+      <div class="container">
+       
+       <div class="section_header">
+           <h3 class="section_suptitle">Our stories</h3>
+           <h2 class="section_title">Video blog</h2>
+       </div>
+     
+        <div class="blog">
+            <div class="blog_item">
+                <div class="blog_header">
+                     <video class="works_image" src="assets/video/1.mp4" controls="controls" poster="" width="380px" height="600px"> 
+                    </video>
+                    
+                </div>
+                <div class="blog_content">
+                    <div class="blog_title">Lorem ipsum dolor sit amet</div>
+                    <div class="blog_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </div>
+            </div>
+            
+            <div class="blog_item">
+                <div class="blog_header">
+                    <video class="works_image" src="assets/video/2.mp4" controls="controls" poster="" width="380px" height="600px">
+                    </video>
+                    
+                </div>
+                <div class="blog_content">
+                    <div class="blog_title">Sed do eiusmod tempor</div>
+                    <div class="blog_text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </div>
+            </div>
+            
+            <div class="blog_item">
+                <div class="blog_header">                 
+                    <video class="works_image" src="assets/video/3.mp4" controls="controls" poster="" width="380px" height="600px">
+                    </video>
+                  
+                </div>
+                <div class="blog_content">
+                    <div class="blog_title">Incididunt ut labore et dolore</div>
+                    <div class="blog_text">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </section>
+     
+     
+     <section class="section section--map">
+         <div class="container">
+            <div class="map">
+             <h2 class="map_title">
+                <div><img src="assets/images/services/map.png" alt=""></div>
+                <a href="https://goo.gl/maps/gtAMgdwZoJwY7D378" target="_blank">Open Map</a>
+             </h2>
+            </div>
+         </div>
+     </section>
+     
+     
+     <footer class="footer">
+         <div class="container">
+            <div class="footer_text">
+                2020 MoGo Creative Company by <b>Smirnova Maria & Moshchoyva Anna</b>
+            </div>
+         </div>
+     </footer>
+     
+     </div>
+     
+    <div class="overlay">
+        <div class="modal_request" id="request">
+            <div class="modal_close">&times;</div>
+            <h3 class="modal_title">Отправить заявку</h3>
+            <form action="#" class="modal_form">
+                <label for="name">Ф.И.О.</label>
+                <input type="text" required id="name">
+                <label for="age">Возраст:</label>
+                <input type="number" required id="age">
+                <label for="phone">Телефон:</label>
+                <input type="tel" required id="phone">
+                <label for="email">E-mail:</label>
+                <input type="email" required id="email">
+                <a class="btn btn_modal" href="#">Send request</a>
+            </form>
+        </div>
+    </div>
+
+
+     
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+     <script src="assets/js/app.js"></script>
+    
+     
+</body>
+</html>
